@@ -12,6 +12,11 @@
     <description>An easy-to-use Spring bridge for Retrofit framework.</description>
 
     <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.testSource>8</maven.compiler.testSource>
+        <maven.compiler.testTarget>8</maven.compiler.testTarget>
+
         <retrofit.version>2.9.0</retrofit.version>
         <spring.version>5.3.6</spring.version>
         <junit.version>5.7.1</junit.version>
